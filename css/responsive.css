@@ -1,0 +1,152 @@
+	/*Default Layout: 1160px*/
+
+	/*Tablet Layout: 768px*/
+	
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.about {
+    max-width: 50%;
+    }
+}
+/*Wide Mobile Layout: 480px*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+
+/*
+.wrap{
+	width:98%;
+}
+#content{
+	width:100%;
+}
+#sidebar{
+	width:100%;
+}
+#slider_wrapper{
+	display:none;
+}
+#header{
+	text-align:center;
+}	
+#content figure{
+	width:75%;
+}	
+	
+#content figure{
+	width:75%;
+	padding:5px;
+}
+#content img {
+    width: 100%;
+}
+#content figcaption{
+	font-size:85%;
+}	
+blockquote {
+    background: #ddd;
+    margin-left: 1%;
+    padding: 5px;
+    padding-left: 3%;
+    border-left: 2px solid orange;
+}		
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#mainmenu{
+	display:none;
+}
+
+
+}
+
+	/*Mobile Layout: 320px */
+		
+@media only screen and (max-width: 767px) {
+.wrap{
+	width:98%;
+}
+#content{
+	width:100%;
+}
+#sidebar{
+	width:100%;
+}
+#slider_wrapper{
+	display:none;
+}
+#imgp_wrap img{
+	width:97%;
+	height:auto;
+}
+#header{
+	text-align:center;
+}
+	
+#content figure{
+	width:75%;
+	padding:5px;
+}
+#content img {
+    width: 100%;
+}
+#content figcaption{
+	font-size:85%;
+}	
+blockquote {
+    background: #ddd;
+    margin-left: 1%;
+    padding: 5px;
+    padding-left: 3%;
+    border-left: 2px solid orange;
+}
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#mainmenu{
+	display:none;
+}
+	
+}
+
+		
+
+	/*	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+----------------------------------------------- */
+
+@media 
+	only screen and (-webkit-min-device-pixel-ratio: 2),
+	only screen and (min-device-pixel-ratio: 2) {
+	
+
+.wrap{
+	width:98%;
+}
+#content{
+	width:100%;
+}
+#sidebar{
+	width:100%;
+}
+#slider_wrapper{
+	display:none;
+}
+#header{
+	text-align:center;
+}	
+.selectnav{
+    display: block;
+    height: 2.75em;
+    width: 100%;
+}	
+#mainmenu{
+	display:none;
+}
+	
+}
